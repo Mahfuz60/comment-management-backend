@@ -26,17 +26,6 @@ This backend service provides a robust API for handling comments, nested replies
   - Data sanitization against XSS and NoSQL injection attacks.
 - **Validation**: Strict centralized request validation using **Zod**.
 
-## 🛠️ Tech Stack
-
-- **Runtime**: [Node.js](https://nodejs.org/)
-- **Framework**: [Express.js](https://expressjs.com/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Database**: [MongoDB](https://www.mongodb.com/) (Mongoose ODM)
-- **Real-time**: [Socket.io](https://socket.io/)
-- **Validation**: [Zod](https://zod.dev/)
-- **Logging**: [Pino](https://github.com/pinojs/pino)
-- **Testing**: [Jest](https://jestjs.io/) & [Supertest](https://github.com/ladjs/supertest)
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -152,4 +141,5 @@ Clients can join a room identified by `${entityType}:${entityId}` to receive upd
 - **Rate Limiting**: Applied to auth routes to prevent brute-force attacks.
 - **Helmet**: Secures HTTP headers.
 - **Authorization**: Strict ownership checks for update/delete operations.
+
 # comment-management-backend
